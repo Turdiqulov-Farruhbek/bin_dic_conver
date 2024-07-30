@@ -119,6 +119,7 @@ class Conver(QWidget):
         self.v_asosiy.addWidget(self.output_16)
         self.v_asosiy.addStretch()
 
+        
         self.setLayout(self.v_asosiy)
         self.show()
 
