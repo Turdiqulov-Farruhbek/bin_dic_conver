@@ -27,6 +27,7 @@ class Conver(QWidget):
                         font-size: 30px;
                         background: #FFF;
                         """)
+        
         ''' 1-bo`lim'''
         self.label_from = QLabel('From')
         self.label_to = QLabel('To')
@@ -88,8 +89,7 @@ class Conver(QWidget):
         self.output_16.setStyleSheet("""
                         background: #EEF2F3;
                         """)
-
-
+        
         self.v_asosiy = QVBoxLayout()
         self.h_label = QHBoxLayout()
         self.h_combo = QHBoxLayout()
